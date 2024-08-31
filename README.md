@@ -13,6 +13,8 @@ Formularios y Validación
 Tecnologías
 
 Análisis de las Funcionalidades
+
+
 1- Gestion citas medicas:
 
 2- Historial del paciente: 
@@ -35,10 +37,10 @@ Búsqueda de médicos por especialidad:
 
 
 
-Prototipado en Figma
+Prototipado en Figma:
 
 
-Prototipo Wireframe
+
 
 Maquetación Responsiva
 La aplicación será desarrollada con HTML5, CSS3 y JavaScript, utilizando frameworks como Bootstrap para la maquetación responsiva.
