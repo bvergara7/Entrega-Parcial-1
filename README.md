@@ -1,7 +1,11 @@
 # Entrega-Parcial-1
 Repositorio de Entrega Parcial 1 de Ingenieria Web PUCV (INF 3245)
 
-Integrantes: Benjamin Vergara - Luka Jacob
+
+# Integrantes: Benjamin Vergara - Luka Jacob
+
+
+# Nombre del Proyecto:  
 
 
 ## Descripción de Propuesta:
