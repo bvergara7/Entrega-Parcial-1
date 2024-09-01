@@ -2,17 +2,17 @@
 Repositorio de Entrega Parcial 1 de Ingenieria Web PUCV (INF 3245)
 
 
-Descripción
+Descripción de Propuesta: 
 El principal objetivo de la aplicación es ofrecer al usuario una herramienta en donde podra llevar registro registro diario en la incorporación de nuevos hábitos y rutinas de su día a día con el fin de lograr llevar un registro personal sobre avances en salud, progresos en metas personales y objetivos concretos que ayuden al usuario a mejorar su vida, ya sea para dejar de fumar, dormir más tiempo o lograr abandonar alguna adicción poco saludable.
 
 Tabla de Contenidos
-Análisis de las Funcionalidades
-Prototipado Figma
-Maquetación Responsiva
-Formularios y Validación
-Tecnologías
+- Análisis de las Funcionalidades
+- Prototipado Figma
+- Maquetación Responsiva de Funcionalidades
+- Formularios Inicio Sesion y Registrarse.
+- Mecanismo de Validación de Formularios.
 
-Análisis de las Funcionalidades
+1.1 Análisis de las Funcionalidades
 
 
 1- Gestion citas medicas:
@@ -21,32 +21,39 @@ Análisis de las Funcionalidades
 
 3- Gestión de recetas electrónicas:
 
-4- Evaluación de satisfacción del paciente: 
+4 - Gestion de perfil:
 
-5- Gestion de perfil EN GENERAL (Eliminar Cuenta) 
+5- Actualización de información personal: 
 
-6- Encuestas de salud periódicas: Enviar encuestas automáticas para monitorear la salud 
-   y bienestar general de los pacientes.
+6- Busqueda de medicos por especialidad
 
-7- Actualización de información personal: 
-
-Extras: Visualización del horario de atención: 
-Envío de correos electrónicos automáticos: 
-
-Búsqueda de médicos por especialidad:
-
-
-
-Prototipado en Figma:
+7- Visualizacion de horario atención de medicos:
 
 
 
 
-Maquetación Responsiva
+
+1.2 Prototipado en Figma:
+Link: 
+
+
+
+1.3 Maquetación Responsiva
 La aplicación será desarrollada con HTML5, CSS3 y JavaScript, utilizando frameworks como Bootstrap para la maquetación responsiva.
 
-Tecnologías
-JavaScript HTML CSS
+Nuestra aplicacion posee distintos archivos html que equivalen a cada una de las funcionalidades mencionadas anteriormente, cada una de ellas posee su propia hoja de estilos guardado en una carpeta llamada Styles que justamente guarda todas las hojas de estilos utilizadas en la pagina, además hay una carpeta que contiene 3 archivos de javascript: dos de formularios(inicio de sesion y registrarse).
+
+
+1.4 Formularios relacionados a sesion de usuario:
+- Inicio de Sesion: 
+- Registrarse:
+
+1.5 Validacion de Formularios: 
+Se tienen dos archivos de javascript referente a la validacion de formulario de inicio de sesion y registrarse, los cuales se encargan de validar que los datos ingresados sean correctos y si no deberian mandar un mensaje de error con el error correspondiente.
+
+
+Tecnologías Utilizadas: 
+ JavaScript HTML CSS
 
 
 
