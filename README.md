@@ -41,9 +41,9 @@ El principal objetivo de la aplicación es ofrecer al usuario una herramienta en
 
 
 ## 1.3 Maquetación Responsiva
-La aplicación será desarrollada con HTML5, CSS3 y JavaScript, utilizando frameworks como Bootstrap para la maquetación responsiva.
+La aplicación será desarrollada con HTML5, CSS3 y JavaScript.
 
-Nuestra aplicacion posee distintos archivos html que equivalen a cada una de las funcionalidades mencionadas anteriormente, cada una de ellas posee su propia hoja de estilos guardado en una carpeta llamada Styles que justamente guarda todas las hojas de estilos utilizadas en la pagina, además hay una carpeta que contiene 3 archivos de javascript: dos de formularios(inicio de sesion y registrarse).
+- Nuestra aplicacion posee distintos archivos html que equivalen a cada una de las funcionalidades mencionadas anteriormente, cada una de ellas posee su propia hoja de estilos guardado en una carpeta llamada Styles que justamente guarda todas las hojas de estilos utilizadas en la pagina, además hay una carpeta que contiene 3 archivos de javascript: dos de formularios(inicio de sesion y registrarse).
 
 
 ## 1.4 Formularios relacionados a sesion de usuario:
