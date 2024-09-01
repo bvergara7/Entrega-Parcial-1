@@ -35,8 +35,8 @@ El principal objetivo de la aplicación es ofrecer al usuario una herramienta en
 
 
 
-##1.2 Prototipado en Figma:
- - Link: 
+## 1.2 Prototipado en Figma:
+ - [Link] : 
 
 
 
