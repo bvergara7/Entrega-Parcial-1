@@ -9,7 +9,10 @@ Repositorio de Entrega Parcial 1 de Ingenieria Web PUCV (INF 3245)
 
 
 ## Descripción de Propuesta:
-El principal objetivo de la aplicación es ofrecer al usuario una herramienta en donde podra llevar registro registro diario en la incorporación de nuevos hábitos y rutinas de su día a día con el fin de lograr llevar un registro personal sobre avances en salud, progresos en metas personales y objetivos concretos que ayuden al usuario a mejorar su vida, ya sea para dejar de fumar, dormir más tiempo o lograr abandonar alguna adicción poco saludable.
+El principal objetivo de la aplicación  dirigida a consultorías y hospitales privados es mejorar la atención del paciente, optimizar la gestión de citas, y facilitar la comunicación y gestión interna dentro del sistema. La aplicación centraliza las funciones clave relacionadas con la atención médica, permitiendo a los usuarios acceder a información relevante de manera rápida y eficiente.
+
+
+
 
 ## Tabla de Contenidos
 - ## Análisis de las Funcionalidades
@@ -27,13 +30,16 @@ El principal objetivo de la aplicación es ofrecer al usuario una herramienta en
 
 3- Gestión de recetas electrónicas:
 
-4 - Gestion de perfil:
+4- Gestion de perfil:
 
 5- Actualización de información personal: 
 
-6- Busqueda de medicos por especialidad
+6- Busqueda de medicos por especialidad:
 
 7- Visualizacion de horario atención de medicos:
+
+Perfiles: - Doctor:
+          - Paciente:
 
 
 
@@ -45,9 +51,9 @@ El principal objetivo de la aplicación es ofrecer al usuario una herramienta en
 
 
 ## 1.3 Maquetación Responsiva
-La aplicación será desarrollada con HTML5, CSS3 y JavaScript.
+La aplicación será desarrollada con HTML5, CSS y JavaScript.
 
-- Nuestra aplicacion posee distintos archivos html que equivalen a cada una de las funcionalidades mencionadas anteriormente, cada una de ellas posee su propia hoja de estilos guardado en una carpeta llamada Styles que justamente guarda todas las hojas de estilos utilizadas en la pagina, además hay una carpeta que contiene 3 archivos de javascript: dos de formularios(inicio de sesion y registrarse) y uno que se encarga del funcionamiento de Back (<-)  y Menu ( ≡ )
+- Nuestra aplicacion posee distintos archivos html que equivalen a cada una de las funcionalidades mencionadas anteriormente, cada una de ellas posee su propia hoja de estilos guardada en una carpeta llamada Styles que justamente guarda todas las hojas de estilos utilizadas dentro del programa, además hay una carpeta que contiene 5 archivos de javascript: dos acerca de validacion de formularios(inicio de sesion y registrarse), otro que se encarga del funcionamiento de Back (<-)  y Menu ( ≡ ) y cerrar sesion e info actualizada.
 
 
 ## 1.4 Formularios relacionados a sesion de usuario:
@@ -55,7 +61,7 @@ La aplicación será desarrollada con HTML5, CSS3 y JavaScript.
 - Registrarse:
 
 ## 1.5 Validacion de Formularios: 
-Se tienen dos archivos de javascript referente a la validacion de formulario de inicio de sesion y registrarse, los cuales se encargan de validar que los datos ingresados sean correctos y si no deberian mandar un mensaje de error con el error correspondiente.
+Se tienen dos archivos de JavaScript referente a la validacion de formulario de inicio de sesion y registrarse, los cuales se encargan de validar que los datos ingresados sean correctos y si no deberian mandar un mensaje de error con el error correspondiente.
 
 
 ## Tecnologías Utilizadas
