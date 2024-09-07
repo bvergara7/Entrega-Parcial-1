@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pantalla de Inicio de Sesión</title>
+    <meta name="description" content="">
+    <link rel="stylesheet" href="Styles/estiloiniciosesion.css">
+    <link rel="stylesheet" href="Styles/estiloerror.css">
+
+</head>
+<body>
+    <div class="container">
+        <h1>MediGest</h1>
+        <div class="tabs">
+            <button class="active" onclick="window.location.href='formularioiniciodesesion.html'">Iniciar Sesión</button>
+            <button class="inactive" onclick="window.location.href='formularioregistrarse.html'">Registrarse</button>
+        </div>
+        <form id="loginForm" onsubmit="return validateForm()">
+            <div class="input-group">
+                <input type="email" id="email" placeholder="Correo electrónico">
+                <div id="emailError" class="error"></div> 
+            </div>
+            <div class="input-group">
+                <input type="password" id="password" placeholder="Contraseña">
+                <div id="passwordError" class="error"></div>
+            </div>
+            <button id="inicioboton" class="login-button" type="submit">Iniciar Sesión</button>
+        </form>
+    </div>
+    <script src="script/validariniciosesion.js"></script>
+</body>
+</html>
+
+
+

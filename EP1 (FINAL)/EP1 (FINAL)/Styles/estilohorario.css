@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+.container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    padding: 20px;
+    text-align: center;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.back-button {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.menu-icon {
+    font-size: 24px;
+    cursor: pointer;
+}
+.title {
+    background-color: #3B82F6;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.doctor-info {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.doctor-info img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.doctor-info h3 {
+    margin: 0;
+    font-size: 16px;
+}
+.doctor-info p {
+    margin: 0;
+    color: #666;
+    font-size: 14px;
+}
+.date-selector {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+.day-selector {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.day {
+    width: 40px;
+    height: 40px;
+    background-color: #f2f2f2;
+    color: #666;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.day.active {
+    background-color: #3B82F6;
+    color: white;
+}
+.timeslots {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.timeslot {
+    width: 30%;
+    padding: 10px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.book-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #3B82F6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.duration {
+    text-align: center;
+    font-size: 12px;
+    color: #666;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú</title>
+    <link rel="stylesheet" href="Styles/estilomenudesp.css">
+</head>
+<body>
+    <div class="menu-container">
+    <a href="actualizarinfo.html" class="menu-item" onclick="showSection('Redirigiendo a Actualizar Informacion Personal')">
+        <div class="menu-icon">👤</div>
+        <div>Actualizar Información Personal</div>
+    </a>
+    <a href="buscarmedicos.html" class="menu-item" onclick="showSection('Redirigiendo a Buscar Citas')">
+        <div class="menu-icon">🔍</div>
+        <div>Buscar Médicos</div>
+    </a>
+    <a href="gestioncitas.html" class="menu-item" onclick="showSection('Redirigiendo a Gestion Citas')">
+        <div class="menu-icon">📅</div>
+        <div>Gestión de Citas</div>
+    </a>
+    <a href="gestionperfil.html" class="menu-item" onclick="showSection('Redirigiendo a Gestion Perfil')">
+        <div class="menu-icon">⚙️</div>
+        <div>Gestión de Perfil</div>
+    </a>
+    <a href="historialpaciente.html" class="menu-item" onclick="showSection('Redirigiendo a Historial Paciente')">
+        <div class="menu-icon">📄</div>
+        <div>Historial del Paciente</div>
+    </a>
+    <a href="horarioatencion.html" class="menu-item" onclick="showSection('Redirigiendo a Horario de Atencion Medicos')">
+        <div class="menu-icon">⏰</div>
+        <div>Horario de Atención</div>
+    </a>
+    <a href="recetaselectronicas.html" class="menu-item" onclick="showSection('Redirigiendo a seccion Recetas Electronicas')">
+        <div class="menu-icon">💊</div>
+        <div>Recetas Electrónicas</div>
+    </a>
+    
+    <a href="formularioiniciodesesion.html" class="menu-item" onclick="showSection('Redirigiendo a Inicio de Sesion')">
+        <div class="menu-icon">❌</div>
+        <div>Cerrar Sesion</div>
+    </a>
+
+
+
+</div>
+<script>
+    function showSection(section) {
+        alert("Mostrar la sección: " + section);
+        toggleMenu(); 
+    }
+</script>
+</body>
+</html>
